@@ -23,7 +23,7 @@ var keys = [
     moji: ':card_index:'
   },
   {
-    word: 'Refactoring',
+    word: 'Refactoring improve improved',
     moji: ':package:'
   },
   {

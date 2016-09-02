@@ -23,6 +23,8 @@ Other | [Be creative](http://www.emoji-cheat-sheet.com/)
 Used in g3l.
 [G3l!](https://www.npmjs.com/package/g3l)
 
+Inspired
+[URL!](https://github.com/dannyfritz/commit-message-emoji)
 
 # How ?
 ```
