@@ -11,7 +11,7 @@ var keys = [
     moji: ':bookmark:'
   },
   {
-    word: 'New Feature',
+    word: 'New Feature done fixed',
     moji: ':sparkles:'
   },
   {
