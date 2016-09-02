@@ -1,0 +1,24 @@
+{
+  "name": "m4g1c",
+  "version": "1.0.0",
+  "description": "Like a magic?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cagataycali/m4g1c.git"
+  },
+  "keywords": [
+    "string",
+    "nodejs",
+    "magic"
+  ],
+  "author": "Çağatay Çalı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cagataycali/m4g1c/issues"
+  },
+  "homepage": "https://github.com/cagataycali/m4g1c#readme"
+}
