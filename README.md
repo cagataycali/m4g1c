@@ -22,3 +22,20 @@ Other | [Be creative](http://www.emoji-cheat-sheet.com/)
 
 Used in g3l.
 [G3l!](https://www.npmjs.com/package/g3l)
+
+
+# How ?
+```
+npm i --save m4g1c
+```
+
+## Then
+```
+var m4g1c = require('m4g1c')
+
+// Programmatical
+m4g1c('init', false)
+  .then((value) => {console.log(value)})
+  .catch((err) => {console.log(err);})
+
+```
