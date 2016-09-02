@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/cagataycali/m4g1c/issues"
   },
-  "homepage": "https://github.com/cagataycali/m4g1c#readme"
+  "homepage": "https://github.com/cagataycali/m4g1c#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "underscore": "^1.8.3"
+  }
 }
