@@ -68,6 +68,6 @@ module.exports = function(text, obj = true) {
         });
       });
     });
-    emoji.length !== 0 ? resolve(obj ? _.uniq(emoji):_.uniq(emoji).join(' ')) : reject('I couldn\'t finded dude.')
+    emoji.length !== 0 ? resolve(obj ? _.uniq(emoji):_.uniq(emoji).join(' ')) : resolve(':construction:')
   });
 }
