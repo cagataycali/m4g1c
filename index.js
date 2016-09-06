@@ -23,7 +23,7 @@ var keys = [
     moji: ':card_index:'
   },
   {
-    word: 'Refactoring improve improved',
+    word: 'Refactoring improve improved refactored',
     moji: ':package:'
   },
   {
@@ -35,7 +35,7 @@ var keys = [
     moji: ':racehorse:'
   },
   {
-    word: 'Cosmetic',
+    word: 'Cosmetic edited demo',
     moji: ':lipstick:'
   },
   {
