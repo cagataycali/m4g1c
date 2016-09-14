@@ -23,6 +23,7 @@
   "homepage": "https://github.com/cagataycali/m4g1c#readme",
   "dependencies": {
     "async": "^2.0.1",
+    "node-emoji": "^1.4.1",
     "underscore": "^1.8.3"
   },
   "tonicExampleFilename": "demo.js"

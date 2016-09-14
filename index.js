@@ -1,5 +1,6 @@
 var _ = require('underscore');
 var async = require('async');
+var emoji = require('node-emoji');
 
 var keys = [
   {
@@ -50,11 +51,8 @@ var keys = [
     word: 'Deprecation',
     moji: ':poop:'
   },
-  {
-    word: 'Work In Progress (WIP)',
-    moji: ':construction:'
-  },
 ];
+var randomEmoji = emoji.random();
 
 module.exports = function(text, obj = true) {
   return new Promise(function(resolve, reject) {
@@ -68,6 +66,6 @@ module.exports = function(text, obj = true) {
         });
       });
     });
-    emoji.length !== 0 ? resolve(obj ? _.uniq(emoji):_.uniq(emoji).join(' ')) : resolve(':construction:')
+    emoji.length !== 0 ? resolve(obj ? _.uniq(emoji):_.uniq(emoji).join(' ')) : resolve(`:${randomEmoji.key}:`)
   });
 }
