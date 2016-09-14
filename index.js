@@ -54,6 +54,10 @@ var keys = [
 ];
 var randomEmoji = emoji.random();
 
+if (randomEmoji.key.indexOf('flag-') !== -1) {
+  randomEmoji = emoji.random();
+}
+
 module.exports = function(text, obj = true) {
   return new Promise(function(resolve, reject) {
     var emoji = [];
@@ -66,6 +70,7 @@ module.exports = function(text, obj = true) {
         });
       });
     });
+    // flag
     emoji.length !== 0 ? resolve(obj ? _.uniq(emoji):_.uniq(emoji).join(' ')) : resolve(`:${randomEmoji.key}:`)
   });
 }
