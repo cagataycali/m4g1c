@@ -40,7 +40,7 @@ var keys = [
     moji: ':lipstick:'
   },
   {
-    word: 'Tooling',
+    word: 'Tooling Change',
     moji: ':wrench:'
   },
   {
