@@ -36,7 +36,7 @@ var keys = [
     moji: ':racehorse:'
   },
   {
-    word: 'Cosmetic edited demo',
+    word: 'Cosmetic',
     moji: ':lipstick:'
   },
   {
