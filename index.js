@@ -79,6 +79,6 @@ module.exports = function(text, obj = true) {
       });
     });
     // flag
-    emoji.length !== 0 ? resolve(obj ? _.uniq(emoji):_.uniq(emoji).join(' ')) : resolve(`:${randomEmoji.key}:`)
+    emoji.length !== 0 ? resolve(obj ? _.uniq(emoji):_.uniq(emoji).join(' ')) : resolve(`:sparkles:`)
   });
 }
