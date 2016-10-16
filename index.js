@@ -51,6 +51,14 @@ var keys = [
     word: 'Deprecation',
     moji: ':poop:'
   },
+  {
+    word: 'Unlink',
+    moji: ':x:'
+  },
+  {
+    word: 'Add',
+    moji: ':heavy_check_mark:'
+  }
 ];
 var randomEmoji = emoji.random();
 
